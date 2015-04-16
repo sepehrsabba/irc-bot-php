@@ -1,0 +1,19 @@
+{
+    "name": "codeon/irc-bot-php",
+    "description": "An IRC bot written in PHP",
+    "authors": [
+        {
+            "name": "Sepehr Sabbagh-pour",
+            "email": "sepehr@codeon.co.uk"
+        }
+    ],
+    "require": {
+        "pimple/pimple": "~3.0",
+        "gnugat/nomo-spaco": ""
+    },
+    "autoload": {
+        "psr-4": {
+            "IrcBotPhp\\Core\\": "core/"
+        }
+    }
+}
